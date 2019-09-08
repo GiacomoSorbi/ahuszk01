@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Gabor Bittera's personal thoughts on business, Scrum and Agile, in a blog format."
+    />
+    <link rel="icon" href="img/MW_logo_dark.png" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/verticalmenu.css" />
+    <!-- Load skrollr if not mobile -->
+    <script>
+      if (screen && screen.width > 1024) {
+        document.write(
+          '<script type="text/javascript" src="lib/skrollr.min.js"><\/script>'
+        );
+      }
+    </script>
+
+    <title>Minimal Works - Works</title>
+  </head>
+
+  <body
+    id="custom_page_bckgrnd"
+    data-0="background-position:0px 0px;"
+    data-100000="background-position:0px -50000px;"
+  >
+    <nav class="navbar navbar-dark ">
+      <button
+        id="sidebarShow"
+        class="navbar-toggler border-0"
+        type="button"
+        aria-expanded="false"
+        aria-label="Sidebar open button"
+      >
+        <span
+          ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="40">
+            <rect x="7" fill="#dc3545" width="36" height="6"></rect>
+            <rect x="7" y="10" fill="#dc3545" width="36" height="6"></rect>
+            <rect x="7" y="20" fill="#dc3545" width="36" height="6"></rect>
+            <path
+              fill="#dc3545"
+              d="M7.4,32.4h2.7l1.7,4.4l1.7-4.4h2.7v7.4h-2v-4.3l-1.7,4.3h-1.5l-1.6-4.3v4.3H7.4V32.4z"
+            ></path>
+            <path
+              fill="#dc3545"
+              d="M18.3,32.4h5.9v1.9h-3.8v0.9h3.7V37h-3.7v1h3.9v1.8h-5.9V32.4z"
+            ></path>
+            <path
+              fill="#dc3545"
+              d="M26.2,32.4h2.2l2.9,3.9v-3.9h2v7.4h-1.9l-3.2-4.3v4.3h-2V32.4z"
+            ></path>
+            <path
+              fill="#dc3545"
+              d="M35.4,36.9v-4.5h2.1v4.2c0,1,0.2,1.5,1.5,1.5c1.3,0,1.5-0.5,1.5-1.5v-4.2h2v4.5c0,1.4-0.2,3.1-3.5,3.1
+            S35.4,38.3,35.4,36.9z"
+            ></path>
+          </svg>
+        </span>
+      </button>
+    </nav>
+
+    <!-- Vertical navbar -->
+    <div class="vertical-nav bg-dark" id="sidebar">
+      <div id="sidebarHide">
+        <i class="fas fa-times" aria-label="close"></i>
+      </div>
+      <div class="py-4 px-3 my-4 bg-dark">
+        <div class="media d-flex align-items-center">
+          <a href="index.html"
+            ><img
+              src="img/mw_logo_light.png"
+              alt="..."
+              width="75"
+              class="mr-3 rounded-circle img-thumbnail shadow-sm"
+          /></a>
+          <div class="media-body">
+            <h4 class="m-0 text-danger">MNMLWRKS</h4>
+            <p class="font-weight-light text-muted mb-0">Gabor Bittera</p>
+          </div>
+        </div>
+      </div>
+
+      <p
+        class="text-danger font-weight-bold text-uppercase px-4 small pb-4 mb-0"
+      >
+        Pages
+      </p>
+
+      <ul class="nav flex-column mb-0">
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="me.html"
+            ><i class="fas fa-user mr-3 text-white fa-fw"></i> Me</a
+          >
+        </li>
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="work.html"
+            ><i class="fas fa-asterisk mr-3 text-white fa-fw"></i> Work</a
+          >
+        </li>
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="thoughts.html"
+            ><i class="fas fa-hashtag mr-3 text-white fa-fw"></i> Thoughts</a
+          >
+        </li>
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="contact.html"
+            ><i class="far fa-circle mr-3 text-white fa-fw"></i> Contact</a
+          >
+        </li>
+      </ul>
+
+      <p
+        class="text-danger font-weight-bold text-uppercase px-4 small py-4 mb-0"
+      >
+        Social Media
+      </p>
+
+      <div class="nav bg-dark mb-0 pl-2">
+        <a
+          class=""
+          href="#"
+          style="font-size: 2em;"
+          aria-label="My Twitter account"
+        >
+          <i class="fab fa-twitter-square m-2 text-white fa-fw"></i
+        ></a>
+        <a href="#" style="font-size: 2em;" aria-label="My Facebook account">
+          <i class="fab fa-facebook-square m-2 text-white fa-fw"></i
+        ></a>
+        <a href="#" style="font-size: 2em;" aria-label="My LinkedIn account">
+          <i class="fab fa-linkedin m-2 text-white fa-fw"></i
+        ></a>
+        <a href="#" style="font-size: 2em;" aria-label="My Instagram account">
+          <i class="fab fa-instagram m-2 text-white fa-fw"></i
+        ></a>
+      </div>
+      <div class="nav bg-dark py-5">
+        <a
+          href="img/GaborBittera_CV.pdf"
+          role="button"
+          class="btn btn-block btn-danger rounded-0 font-weight-bold"
+          target="blank"
+        >
+          DOWNLOAD CV <i class="fas fa-arrow-circle-down"></i>
+        </a>
+      </div>
+      <div class="nav bg-dark mb-0">
+        <p class="text-muted font-weight-bold text-uppercase small smallPrint">
+          © 2019 All rights reserved
+        </p>
+      </div>
+    </div>
+    <!-- End vertical navbar -->
+
+    <header
+      class="headerMW container-fluid text-center p-0"
+      data-0="opacity:1;"
+      data-150="opacity:0;"
+    >
+      <div class="bg-secondary text-light">
+        <h1 class="display-2 headline d-inline px-5 py-2">
+          blog<span class="text-danger font-weight-bold">/</span>posts
+        </h1>
+      </div>
+      <!-- <object data="img/MW_logo.svg" width="300px"></object> -->
+    </header>
+    <main id="skrollr-body" class="container pt-5 lower">
+      <div class="row">
+        <article class="col-12 bg-light mb-3 p-5">
+          <img src="img/blog post img/post-1.jpg" alt="" class="img-fluid" />
+          <h3 class="text-capitalize">
+            <span class="display-1">1</span> Reflections on a Nonference
+          </h3>
+          <div class="content hideContent">
+            <p>
+              Today, I was reminded. Reminded of the power of what we do, and
+              why it matters. Sometimes (and I'm sure I'm not alone with this),
+              I feel disengaged, disconnected and disenfranchised from the
+              people, the teams and the organisations I'm meant to serve.
+              Sometimes, I feel powerless, out of context and out of depth. And
+              after days like this, when I met tons of likeminded folk at Scrum
+              Exchange, I cannot be but grateful for the community that keeps me
+              on my toes; that encourages and inspires me. It keeps reminding me
+              of my great learnings today:
+            </p>
+            <p>
+              1. Displaying vulnerability actually exhibits courage and trust --
+              it is a sign of strength. By presenting and actually calling out
+              our own weaknesses, we just become more approachable -- the mask
+              of the all-knowing invincibility falls and there we are bare
+              naked, frail and relatable humans made of flesh.
+            </p>
+            <p>
+              2. Mass collaboration is probably the least efficient but quickest
+              way to solve a problem which in turns just makes it the most
+              effective. Today, we had to create an exercise that would be able
+              to make a relevant point for a team of people. We bounced ideas on
+              and off, building on one another's thoughts, inspiring and being
+              inspired, which also meant that throughout this ideation session
+              we created a lot of waste. Probably dozens of ideas were raised,
+              observed and then canned, but eventually, we came to the one idea
+              that was good enough to be presented.
+            </p>
+            <p>
+              3. On days like this, I come home and feel energised, empowered,
+              connected and hungry. Hungry for more knowledge, hungry for the
+              next opportunity to learn and eager to tackle the next one waiting
+              for me. It is events like this that make me try twice as hard at
+              work. They make me think twice as long about my next step with my
+              teams and they give me a sense of protection, security and
+              belonging. I'm not alone in this. I'm following the trails of
+              others but with other teams. These paths have already been walked
+              by some of the people that I met today, so the trail is definitely
+              viable and if they could do it with their teams, I can surely walk
+              them with mine, all I have to do is figure out how.
+            </p>
+            <p>
+              I'm utterly waiting for the next moment when I feel broken so that
+              I can remind myself again of the empowerment I feel now.
+            </p>
+            <p>
+              Thank you Tobias Mayer and all my fellow participants at Scrum
+              Exchange. The next one is on 29th November. It's a Friday and I'm
+              coming. Are you?
+            </p>
+          </div>
+          <div class="show-more font-weight-bold">
+            <a href="#">Show more</a>
+          </div>
+        </article>
+        <article class="col-12 bg-dark mb-3 p-5" id="scrum-post">
+          <img src="img/blog post img/post-2.jpg" alt="" class="img-fluid" />
+          <h3 class="text-capitalize text-white">
+            <span class="display-1">2</span> A Short Story on Failing Fast
+          </h3>
+          <div class="content hideContent text-white">
+            <p>
+              Guildford, Saturday morning. A group of teens on the ice rink.
+              They look quite excited, trying to find the perfect pair of skates
+              at the skate hire as though it was something you'd come across on
+              your first occasion. They giggle and laugh in embarrassment, "I'm
+              going to fall over, like, all the time", one says nervously.
+              Finally, everybody does their laces, it's all neat and tight and
+              they step on the ice for the first time ever. Legs shaking,
+              fingers gripping the handrails and off they go, trying to find
+              balance on two razor thin blades.
+            </p>
+            <p>
+              Good ten minutes later, I notice one of them is trying to change
+              the game. Instead of holding on to the handrail like his peers, he
+              started walking on the ice just about to hold his act together. He
+              slid shortly, then collapsed. He got up, tried once more and
+              failed even harder, but this guy wouldn't take no for an answer.
+              Once again, he stood up and started running on the slippery
+              surface -- I could see his ankles shaking as they were trying to
+              get used to the new sensation of being on ice. He stopped running,
+              leaned forward and slid a good few metres.
+            </p>
+            <p>
+              Fifteen minutes in, this guy was all over the place. He was
+              rushing across the rink, throwing his arms around erratically
+              trying to cope and keep his balance, and at times he was
+              successful and remained upright but more often than not he crashed
+              loud and harsh. After some of his collapses, I thought he'd be
+              done, I could nearly hear his bones shatter on the concrete-hard
+              ice, but he didn't care one bit about failing. The only thing he
+              cared about is learning as much as possible during the little time
+              allocated on the rink, and simply there is no better way to do
+              that than failing often. By the end of the group's 45-minute
+              session, this fella knew more about ice-skating than all of his
+              peers combined -- they were still walking in baby steps next to
+              the handrail though unhurt.
+            </p>
+            <p>
+              Upon contemplating at home of what I'd seen, I just became even
+              more convinced that failure is an integral part of the game. It
+              takes a lot of courage to roll up your sleeve and fail frequently
+              and publicly -- oh, the fear of being shamed in front of others,
+              let alone your peers can be so strong that one wouldn't even want
+              to try. So here is a list of things that you might want to keep in
+              mind when you try something new.
+            </p>
+            <ul>
+              <li>
+                Expect failure. It's not a matter of if but a matter of when.
+                Chances are, you will fail immediately. No problem.
+              </li>
+              <li>
+                Observe your failures. What did you exactly do and how? What
+                parameters can you tweak to avoid failure the next time? What
+                did you do well and what needs immediate improvement? Observe
+                your subsequent failures in the light of the previous ones.
+              </li>
+              <li>
+                Trust that you will be rewarded in the long run, and your reward
+                will be the knowledge and experience that you have acquired due
+                to your failures.
+              </li>
+              <li>
+                Failures will not only give you scars and bruises that will
+                heal, but they will also brace you with skills needed to avoid
+                failing the same way twice. If you fail the same way twice, you
+                didn't fail hard enough the first time.
+              </li>
+              <li>
+                By failing frequently and fast, your learning curve becomes a
+                lot steeper than it would be without your failures.
+              </li>
+              <li>
+                Due to the skills and experience you gathered through failures,
+                you are more likely to progress quicker than those who don't
+                dare to step out of their comfort zone. In a way, your progress
+                is limited by the number of your failures.
+              </li>
+              <li>
+                The focus is not on not failing, but on the cycle of failing and
+                learning. After crashing, start again with your new learning
+                incorporated in your next attempt, and fail differently next
+                time.
+              </li>
+              <li>
+                Be open about the fact that you have never done this and you
+                will fail. Most people who have ever tried something new are
+                likely to be emphatic. Start from the vulnerable position and
+                admit that you just don't know. Exposing vulnerability can be a
+                powerful gesture.
+              </li>
+              <li>It's a long way to the top if you wanna rock and roll.</li>
+            </ul>
+            <p>
+              In an agile environment, failure must not be avoided -- it should
+              be encouraged. Scrum Masters need to break the old myth that
+              failure is a weakness and/or will result in punishment. The act of
+              failing is not a vulnerability -- the act of not trying due to
+              fear of failure is. Failure just exposes the lack of knowledge or
+              experience both of which can be remedied by failing frequently,
+              fast and small.
+            </p>
+            <p>
+              When team members try something new and don't get it right, their
+              attempts should be advertised and they should be celebrated,
+              especially if these trials are accompanied by tangible and
+              actionable take-aways. Learning should be shared across the team
+              and even the organisation because this will help others save time
+              and energy of making the same mistake and communicating failures
+              will hopefully result in an organisational culture that welcomes
+              experimenting and is fully aware that failures will happen because
+              there is no other way to figure out what works and what doesn't.
+              People will thrive in an organisation if they get the feedback
+              that it is okay to fail. They will never stop experimenting and
+              will bring innovation which would never be possible if they had
+              been told again and again that "failure is not an option" and "you
+              must get this right". No, failure is definitely an option -- a
+              desired one, because it is the fastest and most practical way to
+              acquire knowledge.
+            </p>
+            <p>
+              As this change in the mindset starts with us, Scrum Masters, we
+              also need to lead by example and be absolutely transparent about
+              the experiments that we run in our teams and how unlikely it is to
+              know the outcomes of these experiments. We must clearly
+              communicate our failures, explain why we think we have failed, and
+              ask for the insights of team members to enable us to improve our
+              next experiment.
+            </p>
+          </div>
+          <div class="show-more font-weight-bold">
+            <a href="#">Show more</a>
+          </div>
+        </article>
+        <article class="col-12 bg-light mb-3 p-5">
+          <h3 class="text-capitalize">
+            <span class="display-1">3</span> The Anatomy of a Scrum Master's Job
+            Seeking Journey
+          </h3>
+          <div class="content hideContent text-dark">
+            <p>
+              The news of unexpected redundancy hit me in mid-June and on that
+              day I learned that I would be out of work by the beginning of
+              August. For the first time in my adult life (also known as an
+              eternity), I won't be working. It's usually not something to be
+              very cheerful about and I wasn't. By the end of July, I had
+              somewhat brushed up my CV and, quite worried, looked forward to
+              the challenges ahead. If you look at my profile, you might
+              understand why -- I had had a bit more than a year as a Scrum
+              Master with my previous company and I definitely felt I needed
+              more experience under my belt to be competitive in the market. The
+              good thing is I was raised in a team of great people who had
+              helped me understand what makes Scrum work and through our
+              failures together we had a good grasp of what Scrum is and what
+              isn't.
+            </p>
+            <p>
+              By mid-August, I restructured my CV so that it highlights some of
+              the skills that might be able to set me apart on the market. It is
+              November now and my job hunting journey has come to an end. I have
+              been in contact with 75 companies and in many cases I applied for
+              several roles within the same organisation. For the sake of
+              simplicity, multiple applications submitted to the same company
+              will be regarded as one here.
+            </p>
+            <p>
+              Before we jump in the data head first, I really want to place a
+              disclaimer here: the data presented can, by no means, be
+              considered to be a true reflection of a regular Scrum Master's job
+              seeking process in general. It rather reflects my own journey with
+              all the caveats and pitfalls -- and learning.
+            </p>
+            <p>
+              Yes, learning. I really wanted to learn something through this
+              lengthy and sometimes nerve-racking process and share it for the
+              benefit of many so I made sure to keep all the records of my
+              applications. As my search is now winding down, I put all my data
+              in a sheet and created some nice graphs to visualise my findings.
+              Buckle up, here we go.
+            </p>
+            <h4>I'm looking forward to hearing from you</h4>
+            <img
+              src="img/blog post img/post-3-img-1.png"
+              class="img-fluid float-left"
+              alt="Pie chart"
+            />
+            <p>
+              I started applying to positions nearly immediately when redundancy
+              hit which means I might have applied to roles I was not exactly
+              qualified for -- sometimes it was due my own desperation but more
+              often than not the job descriptions were not clear enough. It
+              should come as no surprise at all that only one out of five
+              applications were made through referrals or recruiters who
+              contacted me with roles.
+            </p>
+            <img
+              src="img/blog post img/post-3-img-2.png"
+              class="img-fluid float-right"
+              alt="Pie chart"
+            />
+            <p>
+              As a consequence of the above and also due to the nature of job
+              hunting, I was only mildly surprised that
+              <strong
+                >two thirds of my applications received no response at
+                all</strong
+              >, while some applications were rejected outright. To be honest, I
+              am quite grateful for these letters of rejection -- at least I, as
+              an applicant, am not held in limbo about the status of my
+              application. Hence,
+              <strong
+                >sending a letter of rejection to candidates is definitely a
+                field where I think companies could do better</strong
+              >. It would take hardly any effort to send a template to
+              applicants stating that they were 'not considered on this
+              occasion'.
+            </p>
+            <p>
+              So there was no response sent for two thirds of my applications;
+              however, nearly one in four applications did receive a response,
+              and before digging deeper, I really wanted to find out if there is
+              a correlation between the responsiveness of companies and whether
+              the applications were submitted by me, by recruiters on behalf of
+              me or through referrals -- mainly former colleagues or
+              acquaintances whose current companies were hiring Scrum Masters or
+              people in my profession in general.
+            </p>
+            <img
+              src="img/blog post img/post-3-img-3.png"
+              class="img-fluid mx-auto d-block"
+              alt="Bar chart"
+            />
+            <p>
+              45% of applications made by recruiters were picked up by
+              prospective companies, whilst this rate is merely 16% if you are a
+              random applicant from LinkedIn like me. To put it an other way,
+              <strong
+                >applications through recruiters were three times as likely to
+                raise interest with prospective employers</strong
+              >. Also, all applications that were made through referrals were
+              picked up in my case. Thank you folks, indeed!
+            </p>
+            <p>
+              Theoretically then, you just need a good network to land on
+              interviews eventually, right? Well, this is not necessarily the
+              case as the next graph will show:
+            </p>
+            <img
+              src="img/blog post img/post-3-img-4.png"
+              class="img-fluid mx-auto d-block"
+              alt="Bar chart"
+            />
+            <p>
+              It is true that your network and recruiters representing you have
+              better chances to start your phone ringing, but if you are
+              relentless you will easily outperform them. Looking at the numbers
+              only in this graph, you will see that more of my own applications
+              were picked up than recruiters' and referrals' applications
+              combined.
+            </p>
+            <h4>It's great to hear from you!</h4>
+            <p>
+              What I was also eager to find out is the response rate in general:
+              how long does it take for companies to come back to us mere
+              mortals:
+            </p>
+            <img
+              src="img/blog post img/post-3-img-5.png"
+              class="img-fluid mx-auto d-block"
+              alt="Bar chart"
+            />
+            <p>
+              80% of the companies that get back to you, do so within 14
+              calendar days, and 75% of those wanting to take the process
+              further responded in just seven days.
+              <strong
+                >Half the companies that were definitely interested in me
+                responded the day after my application was submitted.</strong
+              >
+            </p>
+            <h4>I hope to meet you soon!</h4>
+            <p>
+              Finally, let's see how well those interviews went. For the sake of
+              simplicity, I broke down the interview types as follows:
+            </p>
+            <ul>
+              <li>
+                Initial interview: The first point of contact with the company
+                -- usually with an internal or external recruiter working for
+                your future employer. You get to know a bit about the role and
+                the company, and then you chat about your CV. Nothing too
+                serious really.
+              </li>
+              <li>
+                Phone interview: This is when you get to speak with some
+                like-minded folk, in most cases they are your future colleagues
+                or would-be boss. This is now the real deal, you do get into the
+                nitty-gritty of agile. For us Scrum Masters, the discussion is
+                about your agile experience but it is not uncommon to face
+                situational questions as well in addition to Scrum theory and
+                Agile methodologies in general.
+              </li>
+              <li>
+                F2F interview: Finally, you get to meet face to face. This step
+                takes a few hours and you will talk to a wide range of people --
+                usually in a few rounds. Mostly, these stages are completed on
+                the same day so you speak with a few product owners first then,
+                after a quick break, you continue with some Scrum Masters or
+                Agile Coaches, etc. Depending on the company, you might be
+                invited back one more time to meet a senior manager but in most
+                cases this step is just an additional sanity check -- the
+                decision is likely to have been made by then.
+              </li>
+            </ul>
+            <p>
+              Once you have completed all the interviews, you may or may not get
+              an offer which you may or may not accept. So without any further
+              ado, I present to you...
+            </p>
+            <img
+              src="img/blog post img/post-3-img-6.png"
+              class="img-fluid mx-auto d-block"
+              alt="Bar chart"
+            />
+            <p>
+              ... this chart which shows the stages that I completed during my
+              job hunting journey. Mind you, each stage builds on the previous
+              one, the "Phone Interview" stage means that I have successfully
+              sailed through the initial interviews, and the "F2F Interview"
+              also implies that I have concluded the initial and phone interview
+              stages. I hope this is clear. So let's see the main findings:
+            </p>
+            <p>
+              I passed two out of three initial interviews which basically means
+              that
+              <strong
+                >once my application was picked up, I was likely to get to the
+                more agile-focused interview steps</strong
+              >, and I was more or less comfortable to whizz through the phone
+              interview stage as well.
+            </p>
+            <p>
+              <strong
+                >About half the time when a company responded to my application,
+                I was invited into their offices for a face-to-face
+                interview.</strong
+              >
+              Obviously, this is when parties have the opportunity to discover
+              one another. Recruitment should really be a two-way street: it is
+              not only about them finding out if they would want to work with
+              you -- you also need to be positive about wanting to work with
+              them. You need to be enthusiastic about going to work in that
+              office with those people; otherwise, it cannot really be a
+              fruitful and healthy work relationship.
+            </p>
+            <p>
+              And finally, the good news and a powerful reminder for the future
+              for me is that
+              <strong
+                >about one in five of those casual chit-chats with the lovely HR
+                person over the phone will actually lead to an offer from that
+                company</strong
+              >.
+            </p>
+            <p>
+              Finding your next role can be a real struggle at times. It is a
+              wild, wild roller coaster with completely unexpected ups and downs
+              and dips and incredibly tight turns. One thing is sure, however:
+              the ride will come to an end eventually, and you will take one of
+              those offers, probably to your own professional benefit as well as
+              to the benefit of the company you will work for.
+            </p>
+            <p>To conclude, here is what I learned:</p>
+            <ul>
+              <li>
+                Dear Companies, brush up your hiring processes a bit please. If
+                you have shortlisted 25 candidates you want to move forward
+                with, let the others know that you are not going to consider
+                their applications. It means the world to us. Really. Thanks.
+              </li>
+              <li>
+                Recruiters work. Or maybe it was just me that was lucky, but I
+                was three times as likely to receive a positive response to an
+                application when it was submitted by a recruiter. Nevertheless,
+                you must apply relentlessly as well.
+              </li>
+              <li>
+                They will reach out soon, if they want to talk to you. This
+                point may be related to the first one. If you don't hear back
+                for two weeks, chances are your application has been binned.
+              </li>
+              <li>
+                In my case, half the time my application was picked up, I landed
+                on a face to face interview, and about a third of those
+                interviews ended with me getting an offer in my hand.
+              </li>
+            </ul>
+            <p>
+              I know it is not easy at times but have faith in yourself. If I
+              can do it, anyone can do it.
+            </p>
+            <p>Good luck!</p>
+          </div>
+          <div class="show-more font-weight-bold">
+            <a href="#">Show more</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer class="container-fluid font-small p-3">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center justify-content-around "
+      >
+        <div class="footer-text col mb-2 text-center text-md-right">
+          <h5 class="d-inline mr-5">© 2019 Copyright Gabor Bittera</h5>
+        </div>
+        <div class="footer-text col mb-md-0 text-center text-md-left">
+          <a href="#" aria-label="Facebook">
+            <i class="fab fa-facebook-f fa-lg mx-md-5 mr-3"></i>
+          </a>
+
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter fa-lg mr-md-5 mr-3"> </i>
+          </a>
+
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3"> </i>
+          </a>
+
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram fa-lg mr-md-5 mr-3"> </i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="lib/custom.js"></script>
+
+    <script type="text/javascript">
+      skrollr.init({
+        forceHeight: false
+      });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/sidebar.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(".show-more a").on("click", function() {
+        var $this = $(this);
+        var $content = $this.parent().prev("div.content");
+        var linkText = $this.text().toUpperCase();
+
+        if (linkText === "SHOW MORE") {
+          linkText = "Show less";
+          $content.switchClass("hideContent", "showContent", 400);
+        } else {
+          linkText = "Show more";
+          $content.switchClass("showContent", "hideContent", 400);
+        }
+
+        $this.text(linkText);
+        return false;
+      });
+    </script>
+  </body>
+</html>

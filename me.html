@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Our Scrum guy, Gabor Bittera, is introducing himself and tells you a story, mostly about his journey through the London business jungle using Agile and Scrum, from Samsung to Vodafone."
+    />
+    <link rel="icon" href="img/MW_logo_dark.png" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/verticalmenu.css" />
+    <!-- Load skrollr if not mobile -->
+    <script>
+      if (screen && screen.width > 1024) {
+        document.write(
+          '<script type="text/javascript" src="lib/skrollr.min.js"><\/script>'
+        );
+      }
+    </script>
+
+    <title>Minimal Works - About Me</title>
+  </head>
+  <body
+    id="custom_page_bckgrnd"
+    data-0="background-position:0px 0px;"
+    data-100000="background-position:0px -50000px;"
+  >
+    <nav class="navbar navbar-dark ">
+      <button
+        id="sidebarShow"
+        class="navbar-toggler border-0"
+        type="button"
+        aria-expanded="false"
+        aria-label="Sidebar open button"
+      >
+        <span
+          ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="40">
+            <rect x="7" fill="#dc3545" width="36" height="6"></rect>
+            <rect x="7" y="10" fill="#dc3545" width="36" height="6"></rect>
+            <rect x="7" y="20" fill="#dc3545" width="36" height="6"></rect>
+            <path
+              fill="#dc3545"
+              d="M7.4,32.4h2.7l1.7,4.4l1.7-4.4h2.7v7.4h-2v-4.3l-1.7,4.3h-1.5l-1.6-4.3v4.3H7.4V32.4z"
+            ></path>
+            <path
+              fill="#dc3545"
+              d="M18.3,32.4h5.9v1.9h-3.8v0.9h3.7V37h-3.7v1h3.9v1.8h-5.9V32.4z"
+            ></path>
+            <path
+              fill="#dc3545"
+              d="M26.2,32.4h2.2l2.9,3.9v-3.9h2v7.4h-1.9l-3.2-4.3v4.3h-2V32.4z"
+            ></path>
+            <path
+              fill="#dc3545"
+              d="M35.4,36.9v-4.5h2.1v4.2c0,1,0.2,1.5,1.5,1.5c1.3,0,1.5-0.5,1.5-1.5v-4.2h2v4.5c0,1.4-0.2,3.1-3.5,3.1
+            S35.4,38.3,35.4,36.9z"
+            ></path>
+          </svg>
+        </span>
+      </button>
+    </nav>
+
+    <!-- Vertical navbar -->
+    <div class="vertical-nav bg-dark" id="sidebar">
+      <div id="sidebarHide">
+        <i class="fas fa-times" aria-label="close"></i>
+      </div>
+      <div class="py-4 px-3 my-4 bg-dark">
+        <div class="media d-flex align-items-center">
+          <a href="index.html"
+            ><img
+              src="img/mw_logo_light.png"
+              alt="..."
+              width="75"
+              class="mr-3 rounded-circle img-thumbnail shadow-sm"
+          /></a>
+          <div class="media-body">
+            <h4 class="m-0 text-danger">MNMLWRKS</h4>
+            <p class="font-weight-light text-muted mb-0">Gabor Bittera</p>
+          </div>
+        </div>
+      </div>
+
+      <p
+        class="text-danger font-weight-bold text-uppercase px-4 small pb-4 mb-0"
+      >
+        Pages
+      </p>
+
+      <ul class="nav flex-column mb-0">
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="me.html"
+            ><i class="fas fa-user mr-3 text-white fa-fw"></i> Me</a
+          >
+        </li>
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="work.html"
+            ><i class="fas fa-asterisk mr-3 text-white fa-fw"></i> Work</a
+          >
+        </li>
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="thoughts.html"
+            ><i class="fas fa-hashtag mr-3 text-white fa-fw"></i> Thoughts</a
+          >
+        </li>
+        <li class="nav-item py-1 text-uppercase">
+          <a class="nav-link bg-dark pl-4" href="contact.html"
+            ><i class="far fa-circle mr-3 text-white fa-fw"></i> Contact</a
+          >
+        </li>
+      </ul>
+
+      <p
+        class="text-danger font-weight-bold text-uppercase px-4 small py-4 mb-0"
+      >
+        Social Media
+      </p>
+
+      <div class="nav bg-dark mb-0 pl-2">
+        <a
+          class=""
+          href="#"
+          style="font-size: 2em;"
+          aria-label="My Twitter account"
+        >
+          <i class="fab fa-twitter-square m-2 text-white fa-fw"></i
+        ></a>
+        <a href="#" style="font-size: 2em;" aria-label="My Facebook account">
+          <i class="fab fa-facebook-square m-2 text-white fa-fw"></i
+        ></a>
+        <a href="#" style="font-size: 2em;" aria-label="My LinkedIn account">
+          <i class="fab fa-linkedin m-2 text-white fa-fw"></i
+        ></a>
+        <a href="#" style="font-size: 2em;" aria-label="My Instagram account">
+          <i class="fab fa-instagram m-2 text-white fa-fw"></i
+        ></a>
+      </div>
+      <div class="nav bg-dark py-5">
+        <a
+          href="img/GaborBittera_CV.pdf"
+          role="button"
+          class="btn btn-block btn-danger rounded-0 font-weight-bold"
+          target="blank"
+        >
+          DOWNLOAD CV <i class="fas fa-arrow-circle-down"></i>
+        </a>
+      </div>
+      <div class="nav bg-dark mb-0">
+        <p class="text-muted font-weight-bold text-uppercase small smallPrint">
+          © 2019 All rights reserved
+        </p>
+      </div>
+    </div>
+    <!-- End vertical navbar -->
+    <header
+      class="headerMW container-fluid text-center p-0"
+      data-0="opacity:1;"
+      data-150="opacity:0;"
+    >
+      <div class="bg-secondary text-light">
+        <h1 class="display-2 headline d-inline px-5 py-2">
+          about<span class="text-danger font-weight-bold">/</span>me
+        </h1>
+      </div>
+    </header>
+    <main id="skrollr-body">
+      <article>
+        <div
+          class="container storywrap m-auto"
+          data-0="padding-top:150px;opacity:1;"
+          data-600="padding-top:50px;opacity:0;"
+        >
+          <div id="me-background" class="position-relative py-3">
+            <img
+              id="profile-pic"
+              class="position-absolute img-fluid"
+              src="img/profile-pic.jpg"
+              alt="Profile"
+            />
+            <div class="dashed_me">
+              <h2 class="text-left">MY STORY</h2>
+              <p class="myStory">
+                Throughout my career, I have taken a wide range of paths and
+                avenues. I have been a teacher, a translator and interpreter and
+                a technical writer. I have worked with individuals and groups of
+                30, children, young adults as well as the elderly and the
+                disabled. There is one recurring theme, however, in my previous
+                professions which all lead to the role I’m enjoying so much
+                right now: they all focus on people and human interactions. I am
+                someone who is always seeking for the compromise, the middle
+                ground. I look for the small step forward that everybody is
+                willing to take for now on the condition that we will review our
+                changes once our experiment is over. I am committed to help
+                people move forward whilst enjoying their time at work.
+              </p>
+            </div>
+          </div>
+          <div class="container mt-5 p-5">
+            <a href="#highlights">
+              <img
+                class="mx-auto d-block"
+                src="img/MW_arrow_downAsset 6.png"
+                alt="scroll down"
+                width="30"
+                height="30"
+            /></a>
+          </div>
+        </div>
+
+        <div class="px-0 skrollr-shift bg-light py-2">
+          <div class="container">
+            <div class="row">
+              <a
+                id="highlights"
+                class="edu-container col-12 col-lg-6 p-1"
+                href="thoughts.html#scrum-post"
+              >
+                <img
+                  src="img/photo-1499750310107-5fef28a66643.jpg"
+                  alt=""
+                  class="edu-photo"
+                  style="width:100%"
+                />
+                <div class="edu-info">
+                  <div class="edu-text">
+                    <h1 class="text-uppercase">Serving the organisation</h1>
+                    <p>
+                      Once the teams have become mature on their journeys to
+                      Agile, it is time for Scrum Masters to help the
+                      organisation move faster
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a
+                class="edu-container col-12 col-lg-6 p-1"
+                href="thoughts.html#scrum-post"
+              >
+                <img
+                  src="img/photo-1532618793091-ec5fe9635fbd.jpg"
+                  alt=""
+                  class="edu-photo"
+                  style="width:100%"
+                />
+                <div class="edu-info">
+                  <div class="edu-text">
+                    <h1 class="text-uppercase">Scrum mastery</h1>
+                    <p>
+                      Helping teams and organisations succeed in Scrum using
+                      Agile best practices
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="row">
+              <a
+                class="edu-container col-12 col-lg-6 p-1"
+                href="work.html#agile"
+              >
+                <img
+                  src="img/photo-1533749871411-5e21e14bcc7d.jpg"
+                  alt=""
+                  class="edu-photo"
+                  style="width:100%"
+                />
+                <div class="edu-info">
+                  <div class="edu-text">
+                    <h1 class="text-uppercase">Coaching</h1>
+                    <p>
+                      Uncovering the hidden potential in team members is the
+                      most rewarding experience
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a
+                class="edu-container col-12 col-lg-6 p-1"
+                href="work.html#agile"
+              >
+                <img
+                  src="img/photo-1542627250-da40d2d18228.jpg"
+                  alt=""
+                  class="edu-photo"
+                  style="width:100%"
+                />
+                <div class="edu-info">
+                  <div class="edu-text">
+                    <h1 class="text-uppercase">Business process modelling</h1>
+                    <p>
+                      Finding out how the team works and interacts with other
+                      teams help us identify the bottlenecks and pain points
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <section class="container p-5 timeline">
+          <h1 class="display-4">My journey</h1>
+          <div class="timeline-line text-muted"></div>
+
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger">Nov 2018-present</span>
+              SCRUM Master & Agile Coach @ Vodafone
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    And it's a funny sort of business to be sitting up there at
+                    your desk, talking down at your subordinates from up there.
+                  </p>
+                </div>
+                <!-- <ul class="list-group list-group-flush small">
+                      <li class="list-group-item">List of features.</li>
+                    </ul> -->
+              </div>
+            </div>
+          </div>
+          <!--row-->
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Jun 2017 – Jul 2018</span
+              >
+              Scrum Master @ Leo Tech Consulting
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    As a Scrum Master for a productive agile team, my role is to
+                    ensure continuous improvement across the development team
+                    through effective facilitation. Based on the input from team
+                    members, I helped set up an inspiring agile environment that
+                    fosters collaboration and group discussion. Together with
+                    the development team, we identify impediments and attempt to
+                    remove or mitigate these blockages. Encouraging close
+                    cooperation between the Product Owner and the developers, we
+                    aspire to find out how we can continuously improve our
+                    processes. With the active participation of our Head of
+                    Delivery, Tim Mackinnon, I helped set up a monitoring
+                    environment to track the health and customer engagement with
+                    our product. I created sprint and release reports to help
+                    the business estimate the future output, and facilitated
+                    release planning workshops. I also took part in the
+                    onboarding process of new developers, and maintained several
+                    business process workflow documents. Whenever there was an
+                    incident on the platform, it was my job to make sure the
+                    incident was properly tracked, followed-up, reported and its
+                    root cause found. I took part in the hiring process to
+                    ensure the most suitable candidates are hired. Additionally,
+                    I also try to make sure that Scrum values as well as the
+                    values of our team are respected within the team and find
+                    out ways to improve our working processes. In the meantime,
+                    I make sure that everything stays in sync and nothing slips
+                    under the radar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--row-->
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Apr 2016 – May 2017</span
+              >
+              Senior Technical Author @ Leo Tech Consulting
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    After joining LeoTech, quickly integrated into the Scrum
+                    team working in aggressive weekly sprints and drew up a
+                    documentation environment that best suits project needs.
+                    After thorough content and business analysis, set up and
+                    managed a DITA-based documentation system using oXygen that
+                    produces topic-based XHTML and PDF output for multiple user
+                    types. Also responsible for setting up an internal
+                    documentation platform to be used by developers and other
+                    internal stakeholders and took an active role in the content
+                    architecture process for LeoTech's website. Later, when the
+                    customer requested training videos, I scripted, recorded and
+                    edited these tutorials to help train end users.
+                    Additionally, created all the onboarding documentation and
+                    maintained several business process workflow documents.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--row-->
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Dec 2013 – Apr 2016</span
+              >
+              Technical Author @ Samsung Electronics
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    Together with Samsung Network’s authoring team, recreated
+                    the entire documentation set of the core and radio product
+                    ranges, complemented the documents with technical
+                    illustrations and call flow diagrams. Developed a new
+                    generic template for the counter description document,
+                    involved in all stages of content design and finalised
+                    documents with stakeholders in Samsung’s Korean HQ, European
+                    customer representatives, the customer project team and
+                    improved documentation quality substantially.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--row-->
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Nov 2011 – Dec 2013</span
+              >
+              Customer Documentation Specialist @ Nokia Siemens
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    Working on major core network products used by T-mobile,
+                    Vodafone, O2, AT&T and Bell Canada, took charge of the
+                    entire documentation of the statistics and charging
+                    application areas, ensuring the validity of documents across
+                    eight major releases. In cooperation with Nokia’s Agile
+                    (Scrum) teams, documented network products using internal
+                    resources. Also generated over 20 thousand pages of PDF from
+                    source files using semi-automated, multi-level processes and
+                    custom tools. Wrote oXygen Author training material for the
+                    documentation team to facilitate the migration from Adobe
+                    FrameMaker.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Jan 2006 – Dec 2013</span
+              >
+              Qualified Translator and Interpreter
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    More and more focused on technology and IT, I worked on
+                    manuals, corporate branding documents, legal contracts for
+                    IT companies, and also transcreated PR and marketing
+                    materials keeping the original message intact. Contacted a
+                    host of specialists and built massive glossaries and
+                    searchable databases from terminology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Sep 2003 – Aug 2009</span
+              >
+              English Language Teacher
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    Working at various multi-national companies such as T-Mobile
+                    Hungary, American Express and GfK,I expanded and broadened
+                    the knowledge of my students building on my experience
+                    andenthusiasm for English language and contributing to their
+                    professional success.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Sep 2010 – Oct 2011</span
+              >
+              Technical Author @ Systems Documentation Inc.
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    In charge of the entire documentation life cycle of a
+                    telecom software product developed by Hewlett Packard as an
+                    external technical author. Working closely and meeting with
+                    French and US teams, graphic designers, authors and project
+                    managers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Sep 2009 – Sep 2010</span
+              >
+              English Language Teacher
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    I helped my students prepare for a comprehensive
+                    intermediate level exam using my specia l“standup” way of
+                    teaching. As a result I managed to spark my students’
+                    interest in the language which resulted in outstanding
+                    success rate during their exams.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Sep 2008 – Sep 2010</span
+              >
+              Translator and Localization Expert @ Morphologic
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    Re-translated the Hungarian localisation of Apple’s iWork
+                    according to the agreed style guide. My changes were adopted
+                    by Apple and spread through the entire Apple ecosystem so
+                    hundreds of thousands of Apple users can enjoy a lot more
+                    fluent UI on both Mac OS X and iOS, which I am very proud
+                    of. Also localised technical documents and UIs for SAP,
+                    adidas, Nikon, Opel/Vauxhall.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-separator">
+            <h3 class="yeartitle">
+              <span class="font-weight-bold text-danger"
+                >Sep 2004 – Sep 2005</span
+              >
+              English as an Additional Language Teacher @ Britannica
+              International School
+            </h3>
+          </div>
+          <div class="row">
+            <div class="card-group mx-2 mx-md-0 w-100">
+              <svg
+                class="timeline-icon pull-left d-none d-md-block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 0v8l4-4-4-4z"
+                  style="fill:#fff;"
+                  transform="translate(2)"
+                />
+              </svg>
+              <div class="card jobs">
+                <div class="card-body">
+                  <h4 class="card-title">Responsibilities</h4>
+                  <p class="card-text">
+                    Worked as an EAL teacher at the longest established British
+                    school in Hungary, providing IGCSE, ASand A Levels. Teaching
+                    international students entering the British education
+                    system, I managed toramp up their language skills to a
+                    sufficient level so that they were able to start their
+                    academic studies in a purely English speaking environment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container p-5" id="certificates">
+          <h1 class="display-4">Education and certificates</h1>
+          <div class="row">
+            <div
+              class="col-12 col-md m-2 m-md-1 p-3 card text-dark bg-light mb-3"
+              style="max-width: 18rem;"
+            >
+              <h4>Corvinus University, Budapest</h4>
+              <p>
+                Post Gradual Degree <br />
+                Language Interpretation <br />
+                and Translation <br />
+                2004 – 2006
+              </p>
+            </div>
+            <div
+              class="col-12 col-md m-2 m-md-1 p-3 card text-dark bg-light mb-3"
+              style="max-width: 18rem;"
+            >
+              <h4>Károli Gáspár University</h4>
+              <p>
+                Master's degree <br />
+                English <br />
+                1998 – 2003
+              </p>
+            </div>
+            <div
+              class="col-12 col-md m-2 m-md-1 p-3 card text-dark bg-light mb-3"
+              style="max-width: 18rem;"
+            >
+              <h4>Ferenc Toldy Highschool</h4>
+              <p>
+                General Certificate of Secondary Education <br />
+                1993 – 1997
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-12 col-md m-2 m-md-1 p-3 card text-dark bg-light mb-3"
+              style="max-width: 18rem;"
+            >
+              <img class="card-img" src="img/csm.png" alt="" />
+              <div class="card-body">
+                <h4>Certified ScrumMaster™ (CSM)</h4>
+                <p class="card-text">
+                  Scrum Alliance Issued Jun 2018 Expires Jun 2020 Credential ID
+                  801965
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md m-2 m-md-1 p-3 card text-dark bg-light mb-3"
+              style="max-width: 18rem;"
+            >
+              <img
+                class="card-img"
+                src="img/ACSM-logo-no-white-bg-web-format-300x271.png"
+                alt=""
+                width="60px"
+              />
+              <div class="card-body">
+                <h4>Advanced Certified ScrumMaster™ (ACSM)</h4>
+                <p class="card-text">
+                  Scrum Alliance Issued Aug 2018 Expires Aug 2020 Credential ID
+                  801965
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md m-2 m-md-1 p-3 card text-dark bg-light mb-3"
+              style="max-width: 18rem;"
+            >
+              <img class="card-img" src="img/kanban.png" alt="" />
+              <div class="card-body">
+                <h4>Kanban System Design</h4>
+                <p class="card-text">
+                  Type - KMP-1 <br />
+                  Lean-Kanban University
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="container-fluid font-small p-3">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center justify-content-around "
+      >
+        <div class="footer-text col mb-2  text-center text-md-right">
+          <h5 class="d-inline mr-5">© 2019 Copyright Gabor Bittera</h5>
+        </div>
+        <div class="footer-text col mb-md-0 text-center text-md-left">
+          <a href="#" aria-label="Facebook">
+            <i class="fab fa-facebook-f fa-lg mx-md-5 mr-3"></i>
+          </a>
+
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter fa-lg mr-md-5 mr-3"> </i>
+          </a>
+
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3"> </i>
+          </a>
+
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram fa-lg mr-md-5 mr-3"> </i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="lib/custom.js"></script>
+
+    <script type="text/javascript">
+      skrollr.init({
+        forceHeight: false
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="lib/sidebar.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
