@@ -195,6 +195,19 @@ section h1 {
   color: var(--bright0);
 }
 
+/* WORK PAGE */
+
+#linkedin-pic {
+  border: 0.5px solid var(--bright0);
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 5px 50px -31px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 50px -31px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 50px -31px rgba(0, 0, 0, 0.75);
+  width: 1.5rem;
+  
+}
+
+
 /* SKROLLR PARALLAX DIV */
 
 .skrollr-shift {
