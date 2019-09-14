@@ -7,7 +7,7 @@
 $from = 'Contact form <contact@mnml.ws>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Contact form <adih81@gmail.com>';
+$sendTo = 'Contact form <hi@mnml.ws>';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -21,10 +21,6 @@ $okMessage = 'Contact form successfully submitted. Thank you, I will get back to
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
-
-/*
- *  LET'S DO THE SENDING
- */
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
 error_reporting(E_ALL & ~E_NOTICE);
