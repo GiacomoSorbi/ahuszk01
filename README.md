@@ -1,10 +1,6 @@
 # ahuszk01
 
-# Adam Huszka Final Project
+# Adam Huszka Final Project Top navbar version
 
 Notes:
-- I had to find some substitute content for the work page, as my client could not provide it in time. This content is temporary and copied from a fellow Scrum master's site (http://www.pohkahkong.com/).
-
-- The social media links (in the sidebar menu and on the contact page) are still blind, as the client has not set up these yet
-
-- 
+- This is the version I originally planned to finalise, however it was not working nicely together with the content, so I decided to use the sidebar menu option. 
