@@ -7,4 +7,4 @@ Notes:
 
 - The social media links (in the sidebar menu and on the contact page) are still blind, as the client has not set up these yet
 
-- 
+- In the additional content folder I have added all my work files, prototype, logo and background drafts plus the literature I used. 
