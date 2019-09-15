@@ -6,12 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta
-      name="description"
-      content="This is Gabor Bittera's portfolio who is a London-based 
-      go-to guy in Scrum, Agile coaching, Technical writing and also being a really nice fellow. No, seriously."
-    />
-    <link rel="icon" href="img/MW_logo_dark.png" />
+
     <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,800&display=swap"
@@ -35,280 +30,275 @@
     />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/style.css" />
-    <!-- Navbar CSS -->
-    <link rel="stylesheet" href="CSS/verticalmenu.css" />
+
+    <!-- Load skrollr if not mobile -->
+    <script>
+      if (screen && screen.width > 1024) {
+        document.write(
+          '<script type="text/javascript" src="lib/skrollr.min.js"><\/script>'
+        );
+      }
+    </script>
 
     <title>Minimal Works</title>
   </head>
-  <body id="custom_page_bckgrnd">
-    <!-- Menu button -->
-    <nav class="navbar navbar-light">
-      <button
-        id="sidebarShow"
-        class="navbar-toggler border-0"
-        type="button"
-        aria-expanded="false"
-        aria-label="Sidebar open button"
-      >
-        <span
-          ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="40">
-            <rect x="7" fill="#dc3545" width="36" height="6"></rect>
-            <rect x="7" y="10" fill="#dc3545" width="36" height="6"></rect>
-            <rect x="7" y="20" fill="#dc3545" width="36" height="6"></rect>
-            <path
-              fill="#dc3545"
-              d="M7.4,32.4h2.7l1.7,4.4l1.7-4.4h2.7v7.4h-2v-4.3l-1.7,4.3h-1.5l-1.6-4.3v4.3H7.4V32.4z"
-            ></path>
-            <path
-              fill="#dc3545"
-              d="M18.3,32.4h5.9v1.9h-3.8v0.9h3.7V37h-3.7v1h3.9v1.8h-5.9V32.4z"
-            ></path>
-            <path
-              fill="#dc3545"
-              d="M26.2,32.4h2.2l2.9,3.9v-3.9h2v7.4h-1.9l-3.2-4.3v4.3h-2V32.4z"
-            ></path>
-            <path
-              fill="#dc3545"
-              d="M35.4,36.9v-4.5h2.1v4.2c0,1,0.2,1.5,1.5,1.5c1.3,0,1.5-0.5,1.5-1.5v-4.2h2v4.5c0,1.4-0.2,3.1-3.5,3.1
-            S35.4,38.3,35.4,36.9z"
-            ></path>
-          </svg>
-        </span>
-      </button>
-    </nav>
+  <body>
+    <header>
+      <div class="container d-lg-flex justify-content-center">
+        <nav id="myNav" class="navbar navbar-expand-lg navbar-dark py-4">
+            <img id="mwHead" src="img/mw_logo_light.png" alt="Minimal works logo" width="50px">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#MW_navbarToggler"
+            aria-controls="MW_navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <!-- Vertical navbar -->
-    <div class="vertical-nav bg-dark" id="sidebar">
-      <div id="sidebarHide">
-        <i class="fas fa-times" aria-label="close"></i>
+          <div class="collapse navbar-collapse" id="MW_navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item px-4 active">
+                <a href="index.html">
+                  <img
+                    class="d-block"
+                    src="img/001-home.svg"
+                    alt="scroll down"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+              </li>
+
+              <li class="nav-item px-4 text-uppercase">
+                <a class="nav-link" href="me.html">Me</a>
+              </li>
+              <li class="nav-item px-4 text-uppercase">
+                <a class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item px-4 text-uppercase">
+                <a class="nav-link" href="thoughts.html">Thoughts</a>
+              </li>
+              <li class="nav-item px-4 text-uppercase">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div class="py-4 px-3 my-4 bg-dark">
-        <div class="media d-flex align-items-center">
-          <a href="index.html"
-            ><img
-              src="img/mw_logo_light.png"
-              alt="..."
-              width="75"
-              class="mr-3 rounded-circle img-thumbnail shadow-sm"
-          /></a>
-          <div class="media-body">
-            <h4 class="m-0 text-danger">MNMLWRKS</h4>
-            <p class="font-weight-light text-muted mb-0">Gabor Bittera</p>
+    </header>
+    <main id="skrollr-body">
+      <article>
+        <div
+          class="logoMW container-fluid"
+          data-0="opacity:1;top:150px;height:300px;"
+          data-750="opacity:0;top:55px;height:100px;"
+        >
+          <svg
+            version="1.0"
+            id="MWlogo"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 250 250"
+            style="enable-background:new 0 0 250 250;width: 300px;"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              .st0 {
+                fill: #ffffff;
+              }
+            </style>
+            <g>
+              <g>
+                <g>
+                  <g>
+                    <path
+                      class="st0"
+                      d="M235,123.56c0.09,9.33-0.88,18.72-3.17,27.82c-0.6,2.27-1.18,4.54-1.94,6.77
+      c-0.67,2.25-1.53,4.44-2.35,6.64c-1.77,4.35-3.71,8.66-6.04,12.75c-4.53,8.27-10.29,15.86-16.8,22.71
+      c-6.63,6.75-14.04,12.8-22.23,17.65c-4.05,2.5-8.33,4.61-12.68,6.55c-2.2,0.91-4.39,1.86-6.65,2.62
+      c-2.23,0.85-4.52,1.52-6.81,2.2c-9.18,2.65-18.74,3.98-28.32,4.21c-9.58,0.09-19.23-0.91-28.58-3.27
+      c-2.33-0.61-4.67-1.21-6.95-1.99c-2.31-0.69-4.56-1.58-6.82-2.42c-4.47-1.82-8.89-3.81-13.09-6.21
+      c-8.37-4.87-15.98-10.96-22.8-17.78c-6.71-6.93-12.66-14.63-17.36-23.04c-2.42-4.16-4.45-8.55-6.3-12.99
+      c-0.86-2.25-1.76-4.48-2.47-6.78c-0.8-2.27-1.41-4.6-2.04-6.92c-2.43-9.31-3.52-18.93-3.5-28.51c0.15-9.58,1.4-19.16,3.97-28.39
+      c0.67-2.3,1.32-4.6,2.15-6.85c0.74-2.28,1.68-4.48,2.57-6.7c1.91-4.38,3.99-8.69,6.47-12.78c4.8-8.26,10.82-15.77,17.55-22.5
+      c6.85-6.62,14.44-12.49,22.74-17.13c4.11-2.39,8.44-4.39,12.82-6.21c2.22-0.85,4.42-1.74,6.69-2.44
+      c2.24-0.79,4.54-1.39,6.82-2.02c9.18-2.39,18.68-3.47,28.14-3.45c9.46,0.15,18.91,1.38,28.01,3.92c2.27,0.66,4.54,1.3,6.75,2.12
+      c2.25,0.73,4.42,1.65,6.61,2.53c4.32,1.89,8.58,3.94,12.61,6.38c8.15,4.74,15.56,10.68,22.2,17.32
+      c6.53,6.76,12.32,14.25,16.9,22.44c2.36,4.05,4.33,8.32,6.13,12.64c0.84,2.19,1.72,4.36,2.4,6.6c0.78,2.21,1.37,4.47,1.99,6.73
+      C233.96,104.86,235.01,114.23,235,123.56c-0.15-9.33-1.37-18.66-3.87-27.63c-0.65-2.24-1.28-4.48-2.09-6.66
+      c-0.72-2.22-1.63-4.36-2.5-6.52c-1.86-4.26-3.89-8.46-6.3-12.44c-4.67-8.04-10.53-15.34-17.09-21.9
+      c-6.67-6.44-14.06-12.16-22.14-16.67c-4-2.33-8.21-4.27-12.47-6.04c-2.16-0.82-4.3-1.69-6.51-2.37
+      c-2.18-0.77-4.41-1.35-6.64-1.96c-8.94-2.33-18.17-3.37-27.38-3.36c-9.21,0.15-18.4,1.35-27.26,3.83
+      c-2.21,0.64-4.42,1.27-6.57,2.07c-2.18,0.71-4.3,1.61-6.43,2.47c-4.2,1.84-8.34,3.83-12.26,6.21
+      c-7.93,4.61-15.13,10.39-21.6,16.86c-6.35,6.58-11.99,13.86-16.44,21.84c-2.3,3.94-4.21,8.1-5.96,12.3
+      c-0.81,2.13-1.67,4.24-2.33,6.42c-0.76,2.15-1.33,4.35-1.93,6.55c-2.29,8.81-3.32,17.92-3.31,27
+      c0.15,9.08,1.34,18.15,3.78,26.88c0.64,2.17,1.25,4.35,2.04,6.48c0.7,2.15,1.59,4.24,2.43,6.34c1.81,4.14,3.78,8.23,6.13,12.09
+      c4.55,7.82,10.25,14.92,16.63,21.29c6.49,6.26,13.67,11.82,21.54,16.21c3.83,2.37,7.88,4.37,11.99,6.21
+      c2.08,0.86,4.15,1.77,6.29,2.48c2.11,0.81,4.28,1.44,6.44,2.09c8.69,2.51,17.73,3.78,26.82,4.01
+      c9.08,0.09,18.21-0.85,27.07-3.07c2.21-0.58,4.42-1.14,6.58-1.88c2.19-0.65,4.32-1.49,6.46-2.29c4.23-1.72,8.42-3.6,12.4-5.87
+      c8.05-4.4,15.43-10,22.11-16.34c6.57-6.45,12.46-13.66,17.18-21.62c2.43-3.94,4.49-8.1,6.38-12.33
+      c0.88-2.14,1.81-4.27,2.55-6.47c0.83-2.17,1.48-4.4,2.15-6.63C233.47,142.19,234.77,132.89,235,123.56z"
+                    />
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <g>
+                    <path
+                      class="st0"
+                      d="M88.06,151.27c1.43-5.73,2.2-9.62,2.23-16.48c0-1.16,0.01-3.05,0.01-6.98c0-6.71,0-17.5,0-26.87
+      c0-4.21,0-8.09-0.01-11.04c0,0.01-0.01,0-0.01,0l0,0c0.45,0.45,0.77,0.77,1,1c0.55,0.55,0.63,0.63,0.63,0.63
+      s21.39,21.41,33.25,33.27c1.35,1.35,2.61,2.61,2.63,2.63c4.05-4.06,6.23-6.24,7.47-7.49c4.83-4.87,7.03-8.17,10.07-13.23
+      c-5.06,3.04-8.36,5.25-13.23,10.07c-0.72,0.71-1.97,1.96-4.31,4.29c0,0,0,0,0.01,0.01c-11.67-11.67-32.73-32.71-32.73-32.71
+      s-0.52-0.52-6.53-6.53c-0.18-0.18-0.52-0.52-1-1c-0.24-0.24-0.51-0.51-0.81-0.81c-0.15-0.15-0.31-0.31-0.48-0.48
+      c-0.08-0.08-0.17-0.17-0.26-0.26c-0.08-0.06-0.22-0.27-0.18-0.05c0,2.08,0,4.85,0,8.14c0,3.63,0,8.4-0.01,13.56
+      c0,9.37,0,20.16,0,26.87c0.01,3.93,0.01,5.82,0.01,6.98C85.86,141.64,86.63,145.54,88.06,151.27z"
+                    />
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <g>
+                    <path
+                      class="st0"
+                      d="M88.06,175.43c5.06-3.04,8.36-5.25,13.23-10.07c4.41-4.41,18.99-18.99,26.51-26.5
+      c15.5,15.49,24.01,23.99,24.01,23.99s1.09,1.09,3.8,3.81c1.36,1.36,3.12,3.12,5.36,5.36c1.76,1.76,3.71,3.72,5.87,5.87
+      c0.68,0.68,1.38,1.38,2.1,2.1c0.36,0.36,0.72,0.72,1.09,1.09l0.14,0.14c0.03,0.05,0.02-0.01,0.03-0.04l0-0.1l0-0.39l0-0.79
+      c0-2.12,0-4.32,0-6.63c0-8,0.01-27.63,0.01-39.9c-0.01-5.24-0.01-8.49-0.02-10.19c-0.03-6.86-0.81-10.75-2.23-16.48
+      c-1.43,5.73-2.2,9.62-2.23,16.48c0,1.7-0.01,4.94-0.02,10.19c0,11.4,0.01,29.64,0.01,37.08c-8.05-8.05-10.74-10.74-10.74-10.74
+      s-8.89-8.9-25.1-25.11c-0.59-0.59-1.2-1.2-1.82-1.82l-0.23-0.23c-0.08,0.05-0.16,0.15-0.24,0.22l-0.48,0.48
+      c-0.32,0.32-0.64,0.64-0.97,0.97c-0.89,0.89-1.82,1.82-2.79,2.79c-1.41,1.41-2.92,2.92-4.48,4.48
+      c-3.12,3.12-6.46,6.46-9.68,9.68c-4.69,4.7-9.03,9.04-11.04,11.06C93.31,167.08,91.1,170.37,88.06,175.43z"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          class="headerwrap container-fluid"
+          data-0="padding-top:700px;"
+          data-750="padding-top:250px;"
+        >
+          <blockquote class="container">
+            <p class="mb-0">
+              “I love deadlines. I love the whooshing noise they make as they go
+              by.”
+            </p>
+            <p class="blockquote-footer text-dark">
+              Douglas Adams,
+              <cite title="Source Title" class="text-dark"
+                >The Salmon of Doubt</cite
+              >
+            </p>
+          </blockquote>
+          <div class="container pb-5">
+            <a href="#dashed_content">
+              <img
+                class="mx-auto d-block"
+                src="img/MW_arrow_downAsset 6.png"
+                alt="scroll down"
+                width="30"
+                height="30"
+            /></a>
           </div>
         </div>
-      </div>
-
-      <p
-        class="text-danger font-weight-bold text-uppercase px-4 small pb-4 mb-0"
-      >
-        Pages
-      </p>
-
-      <ul class="nav flex-column mb-0">
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="me.html"
-            ><i class="fas fa-user mr-3 text-white fa-fw"></i> Me</a
-          >
-        </li>
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="work.html"
-            ><i class="fas fa-asterisk mr-3 text-white fa-fw"></i> Work</a
-          >
-        </li>
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="thoughts.html"
-            ><i class="fas fa-hashtag mr-3 text-white fa-fw"></i> Thoughts</a
-          >
-        </li>
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="contact.html"
-            ><i class="far fa-circle mr-3 text-white fa-fw"></i> Contact</a
-          >
-        </li>
-      </ul>
-
-      <p
-        class="text-danger font-weight-bold text-uppercase px-4 small py-4 mb-0"
-      >
-        Social Media
-      </p>
-
-      <div class="nav bg-dark mb-0 pl-2">
-        <a
-          class=""
-          href="#"
-          style="font-size: 2em;"
-          aria-label="My Twitter account"
-        >
-          <i class="fab fa-twitter-square m-2 text-white fa-fw"></i
-        ></a>
-        <a href="#" style="font-size: 2em;" aria-label="My Facebook account">
-          <i class="fab fa-facebook-square m-2 text-white fa-fw"></i
-        ></a>
-        <a href="#" style="font-size: 2em;" aria-label="My LinkedIn account">
-          <i class="fab fa-linkedin m-2 text-white fa-fw"></i
-        ></a>
-        <a href="#" style="font-size: 2em;" aria-label="My Instagram account">
-          <i class="fab fa-instagram m-2 text-white fa-fw"></i
-        ></a>
-      </div>
-      <div class="nav bg-dark py-5">
-        <a
-          href="img/GaborBittera_CV.pdf"
-          role="button"
-          class="btn btn-block btn-danger rounded-0 font-weight-bold"
-          target="blank"
-        >
-          DOWNLOAD CV <i class="fas fa-arrow-circle-down"></i>
-        </a>
-      </div>
-      <div class="nav bg-dark mb-0">
-        <p class="text-muted font-weight-bold text-uppercase small smallPrint">
-          © 2019 All rights reserved
-        </p>
-      </div>
-    </div>
-    <!-- End vertical navbar -->
-
-    <!-- Landing page logo -->
-    <div
-      class="headerMW container-fluid"
-      data-0="opacity:1;top:150px;height:300px;"
-      data-750="opacity:0;top:55px;height:100px;"
-    >
-      <object
-        data="img/MW_logo.svg"
-        width="300px"
-        alt="Minimal Works Logo"
-      ></object>
-    </div>
-    <!-- Quote-->
-    <main id="skrollr-body">
-      <div
-        class="headerwrap container-fluid mobile"
-        data-0="padding-top:700px;"
-        data-750="padding-top:250px;"
-      >
-        <blockquote class="container">
-          <p class="mb-0 lead">
-            Step by step towards agile
-          </p>
-        </blockquote>
-        <div class="container pb-5">
-          <a href="#dashed_content">
-            <img
-              class="mx-auto d-block"
-              src="img/MW_arrow_downAsset 6.png"
-              alt="scroll down"
-              width="30"
-              height="30"
-          /></a>
-        </div>
-      </div>
-      <!-- Parallax section - About Scrum -->
-      <div class="skrollr-shift">
-        <section id="dashed_content">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col m-0 bg-light">
-                <div class="dashed p-4 mx-auto my-4">
-                  <h2 class="text-center">Scrum</h2>
-                  <p>
-                    Scrum — a lightweight product delivery framework that has
-                    conquered and revolutionised our work processes since its
-                    inception in 1995. It has been governed by a thin document,
-                    the Scrum Guide, last updated in 2017, that describes how
-                    Scrum works. Just like various creative processes made by
-                    humans, such as writing poetry or composing music, the rules
-                    of Scrum are simple but it is difficult to master. Teams
-                    that use the framework to deliver customer value, usually
-                    employ a full time Scrum Master who helps facilitate Scrum
-                    events, coaches the team to improve and helps them work
-                    towards becoming a self-organising team.
-                  </p>
+        <div class="skrollr-shift">
+          <section id="dashed_content">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col m-0 bg-light">
+                  <div class="dashed p-4 mx-auto my-4">
+                    <h2 class="text-center">FAR FAR AWAY</h2>
+                    <p>
+                      Far far away, behind the word mountains, far from the
+                      countries Vokalia and Consonantia, there live the blind
+                      texts. Separated they live in Bookmarksgrove right at the
+                      coast of the Semantics, a large language ocean. A small
+                      river named Duden flows by their place and supplies it
+                      with the necessary regelialia. It is a paradisematic
+                      country, in which roasted parts of sentences fly into your
+                      mouth. Even the all-powerful Pointing has no control about
+                      the blind texts it is an almost unorthographic life One
+                      day however a small line of blind text by the name of
+                      Lorem Ipsum decided to leave for the far World of Grammar.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div id="cards-home" class="container-fluid p-5">
-            <div id="card-brief" class="row">
-              <div class="col m-0">
-                <a
-                  class="card mr-1 border-0 bg-transparent"
-                  href="work.html#agile"
-                >
-                  <img
-                    id="svg_icon"
-                    class="img-fluid mx-auto"
-                    src="img/003-chain.svg"
-                    width="50px"
-                    height="50px"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title text-center text-uppercase">
-                      Rapid adoption
-                    </h5>
-                    <p class="card-text">
-                      Following the rapid adoption of Agile in IT, non-tech
-                      companies are now working towards business agility by
-                      harnessing the power of human-to-human interactions and
-                      shortening delivery cycles.
-                    </p>
+            <div id="cards-home" class="container-fluid p-5">
+              <div id="card-brief" class="row">
+                <div class="col m-0">
+                  <div class="card mr-1 border-0">
+                    <img
+                      id="svg_icon"
+                      class="card-img-to img-fluid mx-auto"
+                      src="img/003-chain.svg"
+                      width="50px"
+                      height="50px"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">SERENITY</h5>
+                      <p class="card-text">
+                        A wonderful serenity has taken possession of my entire
+                        soul, like these sweet mornings of spring which I enjoy
+                        with my whole heart.
+                      </p>
+                    </div>
                   </div>
-                </a>
-              </div>
-              <div class="col m-0">
-                <a
-                  class="card mr-1 border-0 bg-transparent"
-                  href="me.html#certificates"
-                >
-                  <img
-                    class="img-fluid mx-auto"
-                    src="img/002-wind.svg"
-                    width="50px"
-                    height="50px"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title text-center text-uppercase">
-                      The Kanban
-                    </h5>
-                    <p class="card-text">
-                      Start with what you do now — this is what the Kanban
-                      method advises. It was first used by Toyota in Japan and
-                      has become a solution to improve delivery, decrease waste
-                      and uncover bottlenecks.
-                    </p>
+                </div>
+                <div class="col m-0">
+                  <div class="card mr-1 border-0">
+                    <img
+                      class="card-img-to img-fluid mx-auto"
+                      src="img/002-wind.svg"
+                      width="50px"
+                      height="50px"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">BLISS</h5>
+                      <p class="card-text">
+                        I am alone, and feel the charm of existence in this
+                        spot, which was created for the bliss of souls like
+                        mine.
+                      </p>
+                    </div>
                   </div>
-                </a>
-              </div>
-              <div class="col m-0">
-                <a
-                  class="card mr-1 border-0 bg-transparent"
-                  href="thoughts.html#scrum-post"
-                >
-                  <img
-                    src="img/006-mortarboard.svg"
-                    width="50px"
-                    height="50px"
-                    class="img-fluid mx-auto"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title text-center text-uppercase">Humble</h5>
-                    <p class="card-text">
-                      As servant leaders, we are tasked with building teams that
-                      enjoy working together and empowering people and teams to
-                      step out of their comfort zones.
-                    </p>
+                </div>
+                <div class="col m-0">
+                  <div class="card mr-1 border-0">
+                    <img
+                      src="img/006-mortarboard.svg"
+                      width="50px"
+                      height="50px"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">TRANQUIL</h5>
+                      <p class="card-text">
+                        I am so happy, my dear friend, so absorbed in the
+                        exquisite sense of mere tranquil existence, that I
+                        neglect my talents.
+                      </p>
+                    </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
+      </article>
     </main>
 
     <footer class="container-fluid font-small p-3">
@@ -338,14 +328,7 @@
       </div>
     </footer>
     <script type="text/javascript" src="lib/custom.js"></script>
-    <!-- Load skrollr if not mobile -->
-    <script>
-      if (screen && screen.width > 1023) {
-        document.write(
-          '<script type="text/javascript" src="lib/skrollr.min.js"><\/script>'
-        );
-      }
-    </script>
+
     <script type="text/javascript">
       skrollr.init({
         forceHeight: false
@@ -357,7 +340,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="lib/sidebar.js"></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

@@ -6,11 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta
-      name="description"
-      content="Gabor Bittera's personal thoughts on business, Scrum and Agile, in a blog format."
-    />
-    <link rel="icon" href="img/MW_logo_dark.png" />
+
     <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,800&display=swap"
@@ -34,7 +30,7 @@
     />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/verticalmenu.css" />
+
     <!-- Load skrollr if not mobile -->
     <script>
       if (screen && screen.width > 1024) {
@@ -52,150 +48,60 @@
     data-0="background-position:0px 0px;"
     data-100000="background-position:0px -50000px;"
   >
-    <nav class="navbar navbar-dark ">
-      <button
-        id="sidebarShow"
-        class="navbar-toggler border-0"
-        type="button"
-        aria-expanded="false"
-        aria-label="Sidebar open button"
-      >
-        <span
-          ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="40">
-            <rect x="7" fill="#dc3545" width="36" height="6"></rect>
-            <rect x="7" y="10" fill="#dc3545" width="36" height="6"></rect>
-            <rect x="7" y="20" fill="#dc3545" width="36" height="6"></rect>
-            <path
-              fill="#dc3545"
-              d="M7.4,32.4h2.7l1.7,4.4l1.7-4.4h2.7v7.4h-2v-4.3l-1.7,4.3h-1.5l-1.6-4.3v4.3H7.4V32.4z"
-            ></path>
-            <path
-              fill="#dc3545"
-              d="M18.3,32.4h5.9v1.9h-3.8v0.9h3.7V37h-3.7v1h3.9v1.8h-5.9V32.4z"
-            ></path>
-            <path
-              fill="#dc3545"
-              d="M26.2,32.4h2.2l2.9,3.9v-3.9h2v7.4h-1.9l-3.2-4.3v4.3h-2V32.4z"
-            ></path>
-            <path
-              fill="#dc3545"
-              d="M35.4,36.9v-4.5h2.1v4.2c0,1,0.2,1.5,1.5,1.5c1.3,0,1.5-0.5,1.5-1.5v-4.2h2v4.5c0,1.4-0.2,3.1-3.5,3.1
-            S35.4,38.3,35.4,36.9z"
-            ></path>
-          </svg>
-        </span>
-      </button>
-    </nav>
+    <header>
+      <div class="container d-lg-flex justify-content-center pb-5">
+        <nav
+          id="myNav"
+          class="navbar navbar-expand-lg position-fixed navbar-dark py-4"
+        >
+        <img id="mwHead" src="img/mw_logo_light.png" alt="Minimal works logo" width="50px">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#MW_navbarToggler"
+            aria-controls="MW_navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <!-- Vertical navbar -->
-    <div class="vertical-nav bg-dark" id="sidebar">
-      <div id="sidebarHide">
-        <i class="fas fa-times" aria-label="close"></i>
-      </div>
-      <div class="py-4 px-3 my-4 bg-dark">
-        <div class="media d-flex align-items-center">
-          <a href="index.html"
-            ><img
-              src="img/mw_logo_light.png"
-              alt="..."
-              width="75"
-              class="mr-3 rounded-circle img-thumbnail shadow-sm"
-          /></a>
-          <div class="media-body">
-            <h4 class="m-0 text-danger">MNMLWRKS</h4>
-            <p class="font-weight-light text-muted mb-0">Gabor Bittera</p>
+          <div class="collapse navbar-collapse" id="MW_navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item px-4">
+                <a href="index.html">
+                  <img
+                    class="d-block"
+                    src="img/001-home.svg"
+                    alt="scroll down"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+              </li>
+
+              <li class="nav-item px-4 text-uppercase">
+                <a class="nav-link" href="me.html">Me</a>
+              </li>
+              <li class="nav-item px-4 text-uppercase ">
+                <a class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item px-4 text-uppercase active">
+                <a class="nav-link" href="thoughts.html">Thoughts</a>
+              </li>
+              <li class="nav-item px-4 text-uppercase">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
-        </div>
+        </nav>
       </div>
-
-      <p
-        class="text-danger font-weight-bold text-uppercase px-4 small pb-4 mb-0"
-      >
-        Pages
-      </p>
-
-      <ul class="nav flex-column mb-0">
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="me.html"
-            ><i class="fas fa-user mr-3 text-white fa-fw"></i> Me</a
-          >
-        </li>
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="work.html"
-            ><i class="fas fa-asterisk mr-3 text-white fa-fw"></i> Work</a
-          >
-        </li>
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="thoughts.html"
-            ><i class="fas fa-hashtag mr-3 text-white fa-fw"></i> Thoughts</a
-          >
-        </li>
-        <li class="nav-item py-1 text-uppercase">
-          <a class="nav-link bg-dark pl-4" href="contact.html"
-            ><i class="far fa-circle mr-3 text-white fa-fw"></i> Contact</a
-          >
-        </li>
-      </ul>
-
-      <p
-        class="text-danger font-weight-bold text-uppercase px-4 small py-4 mb-0"
-      >
-        Social Media
-      </p>
-
-      <div class="nav bg-dark mb-0 pl-2">
-        <a
-          class=""
-          href="#"
-          style="font-size: 2em;"
-          aria-label="My Twitter account"
-        >
-          <i class="fab fa-twitter-square m-2 text-white fa-fw"></i
-        ></a>
-        <a href="#" style="font-size: 2em;" aria-label="My Facebook account">
-          <i class="fab fa-facebook-square m-2 text-white fa-fw"></i
-        ></a>
-        <a href="#" style="font-size: 2em;" aria-label="My LinkedIn account">
-          <i class="fab fa-linkedin m-2 text-white fa-fw"></i
-        ></a>
-        <a href="#" style="font-size: 2em;" aria-label="My Instagram account">
-          <i class="fab fa-instagram m-2 text-white fa-fw"></i
-        ></a>
-      </div>
-      <div class="nav bg-dark py-5">
-        <a
-          href="img/GaborBittera_CV.pdf"
-          role="button"
-          class="btn btn-block btn-danger rounded-0 font-weight-bold"
-          target="blank"
-        >
-          DOWNLOAD CV <i class="fas fa-arrow-circle-down"></i>
-        </a>
-      </div>
-      <div class="nav bg-dark mb-0">
-        <p class="text-muted font-weight-bold text-uppercase small smallPrint">
-          © 2019 All rights reserved
-        </p>
-      </div>
-    </div>
-    <!-- End vertical navbar -->
-
-    <header
-      class="headerMW container-fluid text-center p-0"
-      data-0="opacity:1;"
-      data-150="opacity:0;"
-    >
-      <div class="bg-secondary text-light">
-        <h1 class="display-2 headline d-inline px-5 py-2">
-          blog<span class="text-danger font-weight-bold">/</span>posts
-        </h1>
-      </div>
-      <!-- <object data="img/MW_logo.svg" width="300px"></object> -->
     </header>
-    <main id="skrollr-body" class="container pt-5 lower">
+
+    <section id="skrollr-body" class="container pt-5">
       <div class="row">
-        <article class="col-12 bg-light mb-3 p-5">
-          <img src="img/blog post img/post-1.jpg" alt="" class="img-fluid" />
+        <div class="col-12 bg-light m-3 p-5">
           <h3 class="text-capitalize">
             <span class="display-1">1</span> Reflections on a Nonference
           </h3>
@@ -252,12 +158,11 @@
               coming. Are you?
             </p>
           </div>
-          <div class="show-more font-weight-bold">
+          <div class="show-more">
             <a href="#">Show more</a>
           </div>
-        </article>
-        <article class="col-12 bg-dark mb-3 p-5" id="scrum-post">
-          <img src="img/blog post img/post-2.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 bg-dark m-3 p-5">
           <h3 class="text-capitalize text-white">
             <span class="display-1">2</span> A Short Story on Failing Fast
           </h3>
@@ -392,11 +297,11 @@
               next experiment.
             </p>
           </div>
-          <div class="show-more font-weight-bold">
+          <div class="show-more">
             <a href="#">Show more</a>
           </div>
-        </article>
-        <article class="col-12 bg-light mb-3 p-5">
+        </div>
+        <div class="col-12 bg-light m-3 p-5">
           <h3 class="text-capitalize">
             <span class="display-1">3</span> The Anatomy of a Scrum Master's Job
             Seeking Journey
@@ -665,18 +570,18 @@
             </p>
             <p>Good luck!</p>
           </div>
-          <div class="show-more font-weight-bold">
+          <div class="show-more">
             <a href="#">Show more</a>
           </div>
-        </article>
+        </div>
       </div>
-    </main>
+    </section>
 
     <footer class="container-fluid font-small p-3">
       <div
         class="d-flex flex-column flex-md-row align-items-center justify-content-around "
       >
-        <div class="footer-text col mb-2 text-center text-md-right">
+        <div class="footer-text col mb-2  text-center text-md-right">
           <h5 class="d-inline mr-5">© 2019 Copyright Gabor Bittera</h5>
         </div>
         <div class="footer-text col mb-md-0 text-center text-md-left">
@@ -706,7 +611,6 @@
       });
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/sidebar.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
